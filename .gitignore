@@ -5,7 +5,6 @@ docs/design/references/
 DerivedData/
 build/
 .build/
-*.xcodeproj
 *.xcworkspace
 *.xcresult
 xcuserdata/

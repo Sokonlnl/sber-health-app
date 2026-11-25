@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059C7EE43B5746E1DE64D1CD /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0036F9FB565DEECC16797 /* Toast.swift */; };
+		09C96B4F4AAC2600D9950E87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E5A115968562255948CDB /* HomeView.swift */; };
+		09E06BC3E6D0DB199BF533CC /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06AA975D1E279FA0AA043F /* IconButton.swift */; };
+		0BBD62D2FEC15A01191EE21D /* sb-sans-display.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F4EF5B7C2D41E7468419C6B /* sb-sans-display.otf */; };
+		0E489499C11D8C914F7A76BF /* PressureFormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4806515FA084EA7415A8DFC /* PressureFormattingTests.swift */; };
+		0F1CDA5AA513067350DE0133 /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020582B650FF6B3916E2C6C /* FlowTests.swift */; };
+		13B2C0868FB29BCC1A31BA84 /* PressureViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7876E85CC9B52F0499A8D815 /* PressureViewModelTests.swift */; };
+		190E7452F16B260CC1863EF6 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3356545C8FE3B25CD1CC17 /* MetricCard.swift */; };
+		196031BB2A400BA7CCB7BAB2 /* PressureZone+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AD575333762100F2D6BB /* PressureZone+Presentation.swift */; };
+		1986B5DBB8BEAF9932EC7515 /* HealthStoreLoadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC44E451D3739BEAC16B358 /* HealthStoreLoadingTests.swift */; };
+		1F919E3249BEB8A775AE6FDC /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FED551C26A17224D591585 /* Advice.swift */; };
+		1FCEDCAA316AAF513CF17D44 /* HealthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE3403BE9CF3B22135427 /* HealthState.swift */; };
+		23CAD2924FFCEF9C55D788C2 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6BA8E7F5F78DB36B485F1 /* HomeModels.swift */; };
+		2C8BDBEFE5A3C5FD39550F5A /* AccessibilityWaivers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A25A765743A50AA813152 /* AccessibilityWaivers.swift */; };
+		320069F2B389E655BA05E0D1 /* MetricValueBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BA5593391D67DF720A64CD /* MetricValueBlock.swift */; };
+		3334D1F11E38C36AE32AA640 /* AuraPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6060BB34445E7DDBB22FEAD /* AuraPalette.swift */; };
+		33701A2BCC415AB22D62FC4A /* HomeAdviceAndIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C125239D5B7219806015C6F /* HomeAdviceAndIntroTests.swift */; };
+		38C718413C1D113B3134790C /* DomeGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B396F06C0B5862B7B8614 /* DomeGlow.swift */; };
+		3B862817325EFC87CF66446A /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED7B632FA4A20473DFD71C /* StatCard.swift */; };
+		3C89C110698B6A82C4B0AFD6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736310C8A71412C94ACF1368 /* RootView.swift */; };
+		3D18FD3564BD26E4F485E5CF /* PressureZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F3F3286091F031017D16E /* PressureZoneTests.swift */; };
+		3FB3DE7EF417FE77B44CFE78 /* AdviceDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024AC12E564ACB8C800F7143 /* AdviceDeck.swift */; };
+		4007AD5FFCD68402DD33B199 /* HealthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94FC6D17A71007116A6477 /* HealthRepository.swift */; };
+		454FCF2F937DB75E7357E77A /* ScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B172AF8587DF04F87DE55E1 /* ScreenshotTests.swift */; };
+		45A828BCBCE3552D46F58A87 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7185E16BC7137D206BED53F3 /* Size.swift */; };
+		4737BF176EE01A8EB8BB879A /* HeartGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404D6B156F399934408F69F /* HeartGlow.swift */; };
+		477C07EEE75B963896500EC7 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC874B68B60D35B79F9EE8 /* FloatingTabBar.swift */; };
+		49F12E543BEB388E6F44BE81 /* AdviceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF829BBD5022C8BFFE0E342 /* AdviceCard.swift */; };
+		4C66DAF1129E12742F2728B5 /* AdviceDeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09025C565222EF2B112DBDCB /* AdviceDeckTests.swift */; };
+		4ED817A1B3E0BE3294296DED /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74EBF36A1BD54C961F0F5F /* Motion.swift */; };
+		51F57FBFA16EA70C52F9751B /* AuraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922DC049F15AC87C9B7A1C69 /* AuraScreen.swift */; };
+		56A82F5DA8A2B9BD2348C094 /* LaunchConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B424E866F7AD18152A553A7 /* LaunchConfig.swift */; };
+		56C0339380FC74122DC514FC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C70E1D728B4253AF68B512 /* Colors.swift */; };
+		5F86D1C33CE42F067DD535B3 /* CornerGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4108BA0D7225839A68EADA0 /* CornerGlow.swift */; };
+		6131BFDBBB6122D5F1CE544B /* HealthMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BD8BD25BAE1F617A81B03 /* HealthMonitorApp.swift */; };
+		61F89209E814FCFE444A90C5 /* PressureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72920B4EFAE248D09F4950B /* PressureViewModel.swift */; };
+		62AAFCF44528661D28C8067B /* PressurePropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F9C18B5D1327B1754A257 /* PressurePropertyTests.swift */; };
+		6CC3EF9B54EC1419FD933456 /* UITestArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E571653DA46F7C1F4B442 /* UITestArgs.swift */; };
+		76D955E99AB759476BE3DA61 /* HomeHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6469A3C95F3D9E5792FADB1 /* HomeHeadline.swift */; };
+		77D351EAB9EC8702F3BB9154 /* BottomFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74B39E99F77F203CE72EF /* BottomFade.swift */; };
+		78FB349D2AE004DFE3756E33 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B33D1510B5A9524C824320 /* Radius.swift */; };
+		79D22528422B5474751DBC33 /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2979FE7FC0F79E52C617F13 /* TestSupport.swift */; };
+		7D8FFEFF28DFF90154147AD5 /* StatusPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7760B25C9FBF2FD671FBC /* StatusPill.swift */; };
+		823AEADC6DD49AE1DEA2E405 /* AdviceDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD8A968F90823141601035 /* AdviceDeckView.swift */; };
+		825B80CCD8DCA56AE4642EFD /* PressureAggregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210309DA981029B525A1FA0 /* PressureAggregation.swift */; };
+		8277B29378ABF9CADCF9A3B3 /* PressureZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E1499CDB1B352E9157452 /* PressureZone.swift */; };
+		85CFDCF667B6C4B785B1230F /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCE373C07D9295AE35BDF2 /* AvatarButton.swift */; };
+		8DE04175C71E94015F679A78 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D911AF5D3989B836D8322 /* Skeleton.swift */; };
+		8EC7847ECDD55A7B7518F2F1 /* AccessibilityAuditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A975506503890EB62867A8 /* AccessibilityAuditTests.swift */; };
+		918D47709E7EBF6536B30DD4 /* HeartbeatRhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655927CD976F9D058601AE76 /* HeartbeatRhythmTests.swift */; };
+		97AE779612849EE1E97747B0 /* MetricGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD97CA5589A944AC230DA50B /* MetricGauge.swift */; };
+		993342C89784A741F36CD5ED /* StatusBarFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA58D89C07D1B0D9980AC1B /* StatusBarFade.swift */; };
+		9D106B82937BB931398E88B2 /* StateMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D301B0F8D830C90431D30B5 /* StateMessageView.swift */; };
+		9DE6C582404DC1DACEBE99AE /* WeekOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50FF3BCD15722A6846FC8D /* WeekOverview.swift */; };
+		A2C679109B3D355DA0823A7E /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961033CA09DCC18982DE1D3 /* GlassCard.swift */; };
+		A5592B33B6F1F247DBDDD70C /* GlowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636459C805A33F1231D9FC2 /* GlowButton.swift */; };
+		A922DC3D8DC79E1C35F6F6CD /* IntroReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592D56FC47C38AE9290A5078 /* IntroReveal.swift */; };
+		B1210ADE5586C420B2F9FBD4 /* MockHealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022EC3B6FCF97CDB9716A1C /* MockHealthData.swift */; };
+		B335F8AE6C0D63FAA9F756CA /* AuraMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F2C3244232C4739BEAFFF /* AuraMarker.swift */; };
+		B4D48BFFCFC605AFA910C6A1 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEDC4F92A5AEEA302E8EFE /* SnapshotTests.swift */; };
+		B6A49F13A7915631E96AC61E /* HomeDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1035CD4BFB536138951150 /* HomeDataTests.swift */; };
+		B86945266FDA89AB90F6904E /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6975F9F98BAF54A98EBC74 /* Typography.swift */; };
+		BB048739939CD52DB430FEE9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136DEDC77A7968A8F179CB9 /* PrimaryButton.swift */; };
+		BF22D35F6C334900DDA8DFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E4C63F63031A50898E2E87 /* Assets.xcassets */; };
+		C68CDA73A2DC07355F1D7760 /* PressureAggregationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DD5E6B0C9BF95E2EE31203 /* PressureAggregationTests.swift */; };
+		C802B90862DD4E9F4D218A9A /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C245BA5F4870959B87DE7C /* SegmentedPicker.swift */; };
+		C97B45182E00F2FFBE664D2D /* PressureCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3529D2903D6B1AB604CEB /* PressureCards.swift */; };
+		CADB4152AFD19C8D47D120C8 /* HeartbeatRhythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A15E176ACE4A16C285F70 /* HeartbeatRhythm.swift */; };
+		CCC8294658CAA277D3353CF0 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C8C15EA4E6B1C7C0CB3E2 /* AppFont.swift */; };
+		CDFFEA492606520F0B447F0D /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3BA7AEF17B156658AAB6F /* SectionHeader.swift */; };
+		CEDC5A2C564BDE5DF9485CE5 /* LargerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD6CD1F0B73EB1ED5BF8A0 /* LargerText.swift */; };
+		CEF5E922018E8AE798984288 /* HealthStoreStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E24EEF13867F1286AFB81 /* HealthStoreStateTests.swift */; };
+		CF7161B6F2512E835082BAA2 /* AppUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C804ADCF631098F921E30 /* AppUnit.swift */; };
+		D0A86DEE64B36770DDD7F373 /* PressureMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755173CD71712A00B29AAFD /* PressureMeasurement.swift */; };
+		D7A63DB725D3BBA8D75860EC /* MetricStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05F9282E28AFF74B7848AD /* MetricStyle.swift */; };
+		DA9CB14F457D694D53F9DD1F /* GaugeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F294F046EE2DBF95A6418018 /* GaugeScale.swift */; };
+		DB5AF8BA84BBB559970B7179 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13D3DFDE3C95960C71C1AE /* Spacing.swift */; };
+		E01D66EEEC3B60CECEEFD76C /* HomeViewModelInsightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CBDE94D79B886A239926A0 /* HomeViewModelInsightTests.swift */; };
+		E6A4E2904DA822B8B6791828 /* HomeViewModel+Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20AF67312084AD9C25A057E /* HomeViewModel+Tiles.swift */; };
+		E7F9EA93EA58F04165132355 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EEFC6D9F885D67B9CBCF5B /* EmptyStateView.swift */; };
+		E8A389F9C9248D78AB2310CC /* HomeTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CCE12DEAB829B10CDDBEC /* HomeTilesTests.swift */; };
+		EA516E5AC77D33639A93B507 /* ContentSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0F79972A6C93180CC5A31 /* ContentSwap.swift */; };
+		ED8615FA7813E11E19648F75 /* AppFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2CCFDD9D105B0B1B8F9C /* AppFormat.swift */; };
+		EE1296EF067EFCEFB88252F0 /* PressureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073BD81165F3084CCC1EDAD /* PressureView.swift */; };
+		F47FB42B6CFDFD385DE07BD3 /* PressureChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACB5AD9407B38B43E1DF0A /* PressureChartView.swift */; };
+		F51028D74DEF36699DE7B4BA /* ErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45CDEA433D41A57F4A67EB /* ErrorStateView.swift */; };
+		F8B0C2B39E1F95166D5BEC78 /* HeroGlowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462F23BF7068D0169235FE61 /* HeroGlowImage.swift */; };
+		FA08DE6CA3AE974885DF3EC0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6053D4769019D262E874E1 /* HomeViewModel.swift */; };
+		FA6369E09572EAF798450FAA /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 400BC5F98F1E1CCA67F5EB93 /* SnapshotTesting */; };
+		FC33DBA6E5504B907904794C /* AuraDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC988DE1A001FD5BC6D44B /* AuraDesignTests.swift */; };
+		FD0B2906615E2A9DCBE8184B /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ACE0BDD8193612850CBC9 /* HeartShape.swift */; };
+		FD8A6EC73C3CEA9EF3D984AE /* Hairline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A07B1C5D5481D332CA1F8E /* Hairline.swift */; };
+		FDB8B704C9678041B8DF5F73 /* HomeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1A01AD31DD479EEF02E6E /* HomeText.swift */; };
+		FE46ADDA755290358BE07AE2 /* InsightSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDF856390E992A55954993 /* InsightSheet.swift */; };
+		FF67C11361CF8BF190008F42 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B89188CE7F9851233BA3D /* HealthStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13282C5BFF67A3EE852CE4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECD3D69C4DD1A8638FEDF49;
+			remoteInfo = HealthMonitor;
+		};
+		AFA2142D0FA8F826FE172441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECD3D69C4DD1A8638FEDF49;
+			remoteInfo = HealthMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0136DEDC77A7968A8F179CB9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		01FED551C26A17224D591585 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
+		021B69C14B50E3EE2E651DD5 /* HealthMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024AC12E564ACB8C800F7143 /* AdviceDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceDeck.swift; sourceTree = "<group>"; };
+		09025C565222EF2B112DBDCB /* AdviceDeckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceDeckTests.swift; sourceTree = "<group>"; };
+		0D3E1499CDB1B352E9157452 /* PressureZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureZone.swift; sourceTree = "<group>"; };
+		1210309DA981029B525A1FA0 /* PressureAggregation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureAggregation.swift; sourceTree = "<group>"; };
+		12CDF856390E992A55954993 /* InsightSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightSheet.swift; sourceTree = "<group>"; };
+		135B396F06C0B5862B7B8614 /* DomeGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeGlow.swift; sourceTree = "<group>"; };
+		150CCE12DEAB829B10CDDBEC /* HomeTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTilesTests.swift; sourceTree = "<group>"; };
+		162F2C3244232C4739BEAFFF /* AuraMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMarker.swift; sourceTree = "<group>"; };
+		1C50FF3BCD15722A6846FC8D /* WeekOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOverview.swift; sourceTree = "<group>"; };
+		1D74EBF36A1BD54C961F0F5F /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		1EC44E451D3739BEAC16B358 /* HealthStoreLoadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreLoadingTests.swift; sourceTree = "<group>"; };
+		1EEEDC4F92A5AEEA302E8EFE /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		26CBDE94D79B886A239926A0 /* HomeViewModelInsightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelInsightTests.swift; sourceTree = "<group>"; };
+		2D94FC6D17A71007116A6477 /* HealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRepository.swift; sourceTree = "<group>"; };
+		2DCCE373C07D9295AE35BDF2 /* AvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
+		34C245BA5F4870959B87DE7C /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		396BD8BD25BAE1F617A81B03 /* HealthMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMonitorApp.swift; sourceTree = "<group>"; };
+		40D7760B25C9FBF2FD671FBC /* StatusPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPill.swift; sourceTree = "<group>"; };
+		462F23BF7068D0169235FE61 /* HeroGlowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGlowImage.swift; sourceTree = "<group>"; };
+		48B33D1510B5A9524C824320 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		4961033CA09DCC18982DE1D3 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		4B424E866F7AD18152A553A7 /* LaunchConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchConfig.swift; sourceTree = "<group>"; };
+		4BED7B632FA4A20473DFD71C /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		4C05F9282E28AFF74B7848AD /* MetricStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricStyle.swift; sourceTree = "<group>"; };
+		4E7ACE0BDD8193612850CBC9 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+		5022EC3B6FCF97CDB9716A1C /* MockHealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHealthData.swift; sourceTree = "<group>"; };
+		52BC874B68B60D35B79F9EE8 /* FloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		547E5A115968562255948CDB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5755173CD71712A00B29AAFD /* PressureMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureMeasurement.swift; sourceTree = "<group>"; };
+		592D56FC47C38AE9290A5078 /* IntroReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroReveal.swift; sourceTree = "<group>"; };
+		5D301B0F8D830C90431D30B5 /* StateMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMessageView.swift; sourceTree = "<group>"; };
+		5E89AD575333762100F2D6BB /* PressureZone+Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PressureZone+Presentation.swift"; sourceTree = "<group>"; };
+		5F1F3F3286091F031017D16E /* PressureZoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureZoneTests.swift; sourceTree = "<group>"; };
+		5F4EF5B7C2D41E7468419C6B /* sb-sans-display.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sb-sans-display.otf"; sourceTree = "<group>"; };
+		60A07B1C5D5481D332CA1F8E /* Hairline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hairline.swift; sourceTree = "<group>"; };
+		647B89188CE7F9851233BA3D /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		655927CD976F9D058601AE76 /* HeartbeatRhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatRhythmTests.swift; sourceTree = "<group>"; };
+		6BEC988DE1A001FD5BC6D44B /* AuraDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraDesignTests.swift; sourceTree = "<group>"; };
+		6C125239D5B7219806015C6F /* HomeAdviceAndIntroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdviceAndIntroTests.swift; sourceTree = "<group>"; };
+		6D45CDEA433D41A57F4A67EB /* ErrorStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorStateView.swift; sourceTree = "<group>"; };
+		6F5A2CCFDD9D105B0B1B8F9C /* AppFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFormat.swift; sourceTree = "<group>"; };
+		7185E16BC7137D206BED53F3 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		736310C8A71412C94ACF1368 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		74ACB5AD9407B38B43E1DF0A /* PressureChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureChartView.swift; sourceTree = "<group>"; };
+		750E24EEF13867F1286AFB81 /* HealthStoreStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreStateTests.swift; sourceTree = "<group>"; };
+		7876E85CC9B52F0499A8D815 /* PressureViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureViewModelTests.swift; sourceTree = "<group>"; };
+		7A2C804ADCF631098F921E30 /* AppUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUnit.swift; sourceTree = "<group>"; };
+		7EA58D89C07D1B0D9980AC1B /* StatusBarFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarFade.swift; sourceTree = "<group>"; };
+		7ECD8A968F90823141601035 /* AdviceDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceDeckView.swift; sourceTree = "<group>"; };
+		890E571653DA46F7C1F4B442 /* UITestArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestArgs.swift; sourceTree = "<group>"; };
+		8F1035CD4BFB536138951150 /* HomeDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataTests.swift; sourceTree = "<group>"; };
+		922DC049F15AC87C9B7A1C69 /* AuraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraScreen.swift; sourceTree = "<group>"; };
+		92FBE3403BE9CF3B22135427 /* HealthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthState.swift; sourceTree = "<group>"; };
+		95DD5E6B0C9BF95E2EE31203 /* PressureAggregationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureAggregationTests.swift; sourceTree = "<group>"; };
+		9A016AC3A68102BD624C5A10 /* HealthMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B172AF8587DF04F87DE55E1 /* ScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTests.swift; sourceTree = "<group>"; };
+		9CF829BBD5022C8BFFE0E342 /* AdviceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceCard.swift; sourceTree = "<group>"; };
+		A020582B650FF6B3916E2C6C /* FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTests.swift; sourceTree = "<group>"; };
+		A20AF67312084AD9C25A057E /* HomeViewModel+Tiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel+Tiles.swift"; sourceTree = "<group>"; };
+		A2A6BA8E7F5F78DB36B485F1 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		A4806515FA084EA7415A8DFC /* PressureFormattingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureFormattingTests.swift; sourceTree = "<group>"; };
+		A6469A3C95F3D9E5792FADB1 /* HomeHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadline.swift; sourceTree = "<group>"; };
+		A9AD6CD1F0B73EB1ED5BF8A0 /* LargerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargerText.swift; sourceTree = "<group>"; };
+		AA13D3DFDE3C95960C71C1AE /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		AD97CA5589A944AC230DA50B /* MetricGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricGauge.swift; sourceTree = "<group>"; };
+		B073BD81165F3084CCC1EDAD /* PressureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureView.swift; sourceTree = "<group>"; };
+		B404D6B156F399934408F69F /* HeartGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartGlow.swift; sourceTree = "<group>"; };
+		B4108BA0D7225839A68EADA0 /* CornerGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerGlow.swift; sourceTree = "<group>"; };
+		B6060BB34445E7DDBB22FEAD /* AuraPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraPalette.swift; sourceTree = "<group>"; };
+		B6B74B39E99F77F203CE72EF /* BottomFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomFade.swift; sourceTree = "<group>"; };
+		B72920B4EFAE248D09F4950B /* PressureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureViewModel.swift; sourceTree = "<group>"; };
+		B78F9C18B5D1327B1754A257 /* PressurePropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressurePropertyTests.swift; sourceTree = "<group>"; };
+		B8EEFC6D9F885D67B9CBCF5B /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		BFA1A01AD31DD479EEF02E6E /* HomeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeText.swift; sourceTree = "<group>"; };
+		C2979FE7FC0F79E52C617F13 /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport.swift; sourceTree = "<group>"; };
+		C7BA5593391D67DF720A64CD /* MetricValueBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricValueBlock.swift; sourceTree = "<group>"; };
+		CCF0F79972A6C93180CC5A31 /* ContentSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSwap.swift; sourceTree = "<group>"; };
+		CE4D911AF5D3989B836D8322 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
+		D2B0036F9FB565DEECC16797 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		D51C8C15EA4E6B1C7C0CB3E2 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		D636459C805A33F1231D9FC2 /* GlowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowButton.swift; sourceTree = "<group>"; };
+		DA6053D4769019D262E874E1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DB06AA975D1E279FA0AA043F /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		DB6975F9F98BAF54A98EBC74 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		E0D3529D2903D6B1AB604CEB /* PressureCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureCards.swift; sourceTree = "<group>"; };
+		E2A975506503890EB62867A8 /* AccessibilityAuditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAuditTests.swift; sourceTree = "<group>"; };
+		E2E4C63F63031A50898E2E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C70E1D728B4253AF68B512 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F0F3BA7AEF17B156658AAB6F /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		F1E36DB6FB3F78D1525D8EBE /* HealthMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F294F046EE2DBF95A6418018 /* GaugeScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeScale.swift; sourceTree = "<group>"; };
+		F59A15E176ACE4A16C285F70 /* HeartbeatRhythm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatRhythm.swift; sourceTree = "<group>"; };
+		FC0A25A765743A50AA813152 /* AccessibilityWaivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWaivers.swift; sourceTree = "<group>"; };
+		FC3356545C8FE3B25CD1CC17 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D44E5AE326A83BE57275CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FCB3B878519BE4E9AF9198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF04C2A3EDFD67EB0747266C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6369E09572EAF798450FAA /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044604376F759FDD0BA2AD9D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2D94FC6D17A71007116A6477 /* HealthRepository.swift */,
+				647B89188CE7F9851233BA3D /* HealthStore.swift */,
+				5022EC3B6FCF97CDB9716A1C /* MockHealthData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		08EA8498841734AB3B888163 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E941FDFB975AB264055CF254 /* Fonts */,
+				E2E4C63F63031A50898E2E87 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A3E27B8CA818264D75C8D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021B69C14B50E3EE2E651DD5 /* HealthMonitor.app */,
+				9A016AC3A68102BD624C5A10 /* HealthMonitorTests.xctest */,
+				F1E36DB6FB3F78D1525D8EBE /* HealthMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213593B6BD5448AD6BA641B8 /* HealthMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				B832BDA82AAF97CE9E14650C /* App */,
+				044604376F759FDD0BA2AD9D /* Data */,
+				39CFD12BFBD4F74B2176BA84 /* DesignSystem */,
+				89B81EB9271157ED13F2A163 /* Domain */,
+				2DC9B0652AFEC9AE29035A56 /* Features */,
+				08EA8498841734AB3B888163 /* Resources */,
+			);
+			path = HealthMonitor;
+			sourceTree = "<group>";
+		};
+		28396BA01D321350F95BC715 /* HealthMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				09025C565222EF2B112DBDCB /* AdviceDeckTests.swift */,
+				6BEC988DE1A001FD5BC6D44B /* AuraDesignTests.swift */,
+				1EC44E451D3739BEAC16B358 /* HealthStoreLoadingTests.swift */,
+				750E24EEF13867F1286AFB81 /* HealthStoreStateTests.swift */,
+				655927CD976F9D058601AE76 /* HeartbeatRhythmTests.swift */,
+				6C125239D5B7219806015C6F /* HomeAdviceAndIntroTests.swift */,
+				8F1035CD4BFB536138951150 /* HomeDataTests.swift */,
+				150CCE12DEAB829B10CDDBEC /* HomeTilesTests.swift */,
+				26CBDE94D79B886A239926A0 /* HomeViewModelInsightTests.swift */,
+				95DD5E6B0C9BF95E2EE31203 /* PressureAggregationTests.swift */,
+				A4806515FA084EA7415A8DFC /* PressureFormattingTests.swift */,
+				B78F9C18B5D1327B1754A257 /* PressurePropertyTests.swift */,
+				7876E85CC9B52F0499A8D815 /* PressureViewModelTests.swift */,
+				5F1F3F3286091F031017D16E /* PressureZoneTests.swift */,
+				1EEEDC4F92A5AEEA302E8EFE /* SnapshotTests.swift */,
+				C2979FE7FC0F79E52C617F13 /* TestSupport.swift */,
+			);
+			path = HealthMonitorTests;
+			sourceTree = "<group>";
+		};
+		2DC9B0652AFEC9AE29035A56 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				971551475FAB8B73B789E591 /* Home */,
+				AF40DA275673DC4F6C42DEC3 /* Pressure */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		39CFD12BFBD4F74B2176BA84 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9CF829BBD5022C8BFFE0E342 /* AdviceCard.swift */,
+				7ECD8A968F90823141601035 /* AdviceDeckView.swift */,
+				D51C8C15EA4E6B1C7C0CB3E2 /* AppFont.swift */,
+				162F2C3244232C4739BEAFFF /* AuraMarker.swift */,
+				B6060BB34445E7DDBB22FEAD /* AuraPalette.swift */,
+				922DC049F15AC87C9B7A1C69 /* AuraScreen.swift */,
+				2DCCE373C07D9295AE35BDF2 /* AvatarButton.swift */,
+				B6B74B39E99F77F203CE72EF /* BottomFade.swift */,
+				E3C70E1D728B4253AF68B512 /* Colors.swift */,
+				CCF0F79972A6C93180CC5A31 /* ContentSwap.swift */,
+				B4108BA0D7225839A68EADA0 /* CornerGlow.swift */,
+				135B396F06C0B5862B7B8614 /* DomeGlow.swift */,
+				B8EEFC6D9F885D67B9CBCF5B /* EmptyStateView.swift */,
+				6D45CDEA433D41A57F4A67EB /* ErrorStateView.swift */,
+				52BC874B68B60D35B79F9EE8 /* FloatingTabBar.swift */,
+				4961033CA09DCC18982DE1D3 /* GlassCard.swift */,
+				D636459C805A33F1231D9FC2 /* GlowButton.swift */,
+				60A07B1C5D5481D332CA1F8E /* Hairline.swift */,
+				B404D6B156F399934408F69F /* HeartGlow.swift */,
+				4E7ACE0BDD8193612850CBC9 /* HeartShape.swift */,
+				462F23BF7068D0169235FE61 /* HeroGlowImage.swift */,
+				DB06AA975D1E279FA0AA043F /* IconButton.swift */,
+				592D56FC47C38AE9290A5078 /* IntroReveal.swift */,
+				A9AD6CD1F0B73EB1ED5BF8A0 /* LargerText.swift */,
+				FC3356545C8FE3B25CD1CC17 /* MetricCard.swift */,
+				AD97CA5589A944AC230DA50B /* MetricGauge.swift */,
+				4C05F9282E28AFF74B7848AD /* MetricStyle.swift */,
+				C7BA5593391D67DF720A64CD /* MetricValueBlock.swift */,
+				1D74EBF36A1BD54C961F0F5F /* Motion.swift */,
+				0136DEDC77A7968A8F179CB9 /* PrimaryButton.swift */,
+				48B33D1510B5A9524C824320 /* Radius.swift */,
+				F0F3BA7AEF17B156658AAB6F /* SectionHeader.swift */,
+				34C245BA5F4870959B87DE7C /* SegmentedPicker.swift */,
+				7185E16BC7137D206BED53F3 /* Size.swift */,
+				CE4D911AF5D3989B836D8322 /* Skeleton.swift */,
+				AA13D3DFDE3C95960C71C1AE /* Spacing.swift */,
+				4BED7B632FA4A20473DFD71C /* StatCard.swift */,
+				5D301B0F8D830C90431D30B5 /* StateMessageView.swift */,
+				7EA58D89C07D1B0D9980AC1B /* StatusBarFade.swift */,
+				40D7760B25C9FBF2FD671FBC /* StatusPill.swift */,
+				D2B0036F9FB565DEECC16797 /* Toast.swift */,
+				DB6975F9F98BAF54A98EBC74 /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		89B81EB9271157ED13F2A163 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				01FED551C26A17224D591585 /* Advice.swift */,
+				024AC12E564ACB8C800F7143 /* AdviceDeck.swift */,
+				6F5A2CCFDD9D105B0B1B8F9C /* AppFormat.swift */,
+				7A2C804ADCF631098F921E30 /* AppUnit.swift */,
+				F294F046EE2DBF95A6418018 /* GaugeScale.swift */,
+				92FBE3403BE9CF3B22135427 /* HealthState.swift */,
+				F59A15E176ACE4A16C285F70 /* HeartbeatRhythm.swift */,
+				BFA1A01AD31DD479EEF02E6E /* HomeText.swift */,
+				1210309DA981029B525A1FA0 /* PressureAggregation.swift */,
+				5755173CD71712A00B29AAFD /* PressureMeasurement.swift */,
+				5E89AD575333762100F2D6BB /* PressureZone+Presentation.swift */,
+				0D3E1499CDB1B352E9157452 /* PressureZone.swift */,
+				1C50FF3BCD15722A6846FC8D /* WeekOverview.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		971551475FAB8B73B789E591 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A6469A3C95F3D9E5792FADB1 /* HomeHeadline.swift */,
+				A2A6BA8E7F5F78DB36B485F1 /* HomeModels.swift */,
+				547E5A115968562255948CDB /* HomeView.swift */,
+				A20AF67312084AD9C25A057E /* HomeViewModel+Tiles.swift */,
+				DA6053D4769019D262E874E1 /* HomeViewModel.swift */,
+				12CDF856390E992A55954993 /* InsightSheet.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9F1E555D9B9726DD374D579C /* HealthMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2A975506503890EB62867A8 /* AccessibilityAuditTests.swift */,
+				FC0A25A765743A50AA813152 /* AccessibilityWaivers.swift */,
+				A020582B650FF6B3916E2C6C /* FlowTests.swift */,
+				9B172AF8587DF04F87DE55E1 /* ScreenshotTests.swift */,
+				890E571653DA46F7C1F4B442 /* UITestArgs.swift */,
+			);
+			path = HealthMonitorUITests;
+			sourceTree = "<group>";
+		};
+		A0282CDBEE91B0AC00351D03 = {
+			isa = PBXGroup;
+			children = (
+				213593B6BD5448AD6BA641B8 /* HealthMonitor */,
+				28396BA01D321350F95BC715 /* HealthMonitorTests */,
+				9F1E555D9B9726DD374D579C /* HealthMonitorUITests */,
+				0A3E27B8CA818264D75C8D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF40DA275673DC4F6C42DEC3 /* Pressure */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3529D2903D6B1AB604CEB /* PressureCards.swift */,
+				74ACB5AD9407B38B43E1DF0A /* PressureChartView.swift */,
+				B073BD81165F3084CCC1EDAD /* PressureView.swift */,
+				B72920B4EFAE248D09F4950B /* PressureViewModel.swift */,
+			);
+			path = Pressure;
+			sourceTree = "<group>";
+		};
+		B832BDA82AAF97CE9E14650C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				396BD8BD25BAE1F617A81B03 /* HealthMonitorApp.swift */,
+				4B424E866F7AD18152A553A7 /* LaunchConfig.swift */,
+				736310C8A71412C94ACF1368 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E941FDFB975AB264055CF254 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5F4EF5B7C2D41E7468419C6B /* sb-sans-display.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67A21F53EFD5DDEF19DED69 /* HealthMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF6430C66F40BF10AB415EB /* Build configuration list for PBXNativeTarget "HealthMonitorTests" */;
+			buildPhases = (
+				4A4E141357D1234B81E9E59D /* Sources */,
+				EF04C2A3EDFD67EB0747266C /* Frameworks */,
+				93F0962EA2C461897EC55149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96816D0201813B38E28324E /* PBXTargetDependency */,
+			);
+			name = HealthMonitorTests;
+			packageProductDependencies = (
+				400BC5F98F1E1CCA67F5EB93 /* SnapshotTesting */,
+			);
+			productName = HealthMonitorTests;
+			productReference = 9A016AC3A68102BD624C5A10 /* HealthMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EECD3D69C4DD1A8638FEDF49 /* HealthMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FDBA3CAD095E9CD9A9B9DF /* Build configuration list for PBXNativeTarget "HealthMonitor" */;
+			buildPhases = (
+				C0A7F4F63DA80C781ADFC9C3 /* Sources */,
+				13D44E5AE326A83BE57275CE /* Frameworks */,
+				D02D4FAB809225C0E3799138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthMonitor;
+			productName = HealthMonitor;
+			productReference = 021B69C14B50E3EE2E651DD5 /* HealthMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDEF80B848F0212664A677D1 /* HealthMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AADCC7D4B8FA18B80C21037 /* Build configuration list for PBXNativeTarget "HealthMonitorUITests" */;
+			buildPhases = (
+				0D46BCB5BBCC12A7565B694F /* Sources */,
+				D7FCB3B878519BE4E9AF9198 /* Frameworks */,
+				79359BA07CFB9CA313055435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576FD9CBD88521B28E623995 /* PBXTargetDependency */,
+			);
+			name = HealthMonitorUITests;
+			productName = HealthMonitorUITests;
+			productReference = F1E36DB6FB3F78D1525D8EBE /* HealthMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244210E48437B6556980A702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C67A21F53EFD5DDEF19DED69 = {
+						TestTargetID = EECD3D69C4DD1A8638FEDF49;
+					};
+					FDEF80B848F0212664A677D1 = {
+						TestTargetID = EECD3D69C4DD1A8638FEDF49;
+					};
+				};
+			};
+			buildConfigurationList = F905B102B4F13BD6617D8EB3 /* Build configuration list for PBXProject "HealthMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0282CDBEE91B0AC00351D03;
+			packageReferences = (
+				E3CF9A2ADAA23C15F8C0E2AB /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
+			productRefGroup = 0A3E27B8CA818264D75C8D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECD3D69C4DD1A8638FEDF49 /* HealthMonitor */,
+				C67A21F53EFD5DDEF19DED69 /* HealthMonitorTests */,
+				FDEF80B848F0212664A677D1 /* HealthMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79359BA07CFB9CA313055435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F0962EA2C461897EC55149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02D4FAB809225C0E3799138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF22D35F6C334900DDA8DFD1 /* Assets.xcassets in Resources */,
+				0BBD62D2FEC15A01191EE21D /* sb-sans-display.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D46BCB5BBCC12A7565B694F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC7847ECDD55A7B7518F2F1 /* AccessibilityAuditTests.swift in Sources */,
+				2C8BDBEFE5A3C5FD39550F5A /* AccessibilityWaivers.swift in Sources */,
+				0F1CDA5AA513067350DE0133 /* FlowTests.swift in Sources */,
+				454FCF2F937DB75E7357E77A /* ScreenshotTests.swift in Sources */,
+				6CC3EF9B54EC1419FD933456 /* UITestArgs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4E141357D1234B81E9E59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C66DAF1129E12742F2728B5 /* AdviceDeckTests.swift in Sources */,
+				FC33DBA6E5504B907904794C /* AuraDesignTests.swift in Sources */,
+				1986B5DBB8BEAF9932EC7515 /* HealthStoreLoadingTests.swift in Sources */,
+				CEF5E922018E8AE798984288 /* HealthStoreStateTests.swift in Sources */,
+				918D47709E7EBF6536B30DD4 /* HeartbeatRhythmTests.swift in Sources */,
+				33701A2BCC415AB22D62FC4A /* HomeAdviceAndIntroTests.swift in Sources */,
+				B6A49F13A7915631E96AC61E /* HomeDataTests.swift in Sources */,
+				E8A389F9C9248D78AB2310CC /* HomeTilesTests.swift in Sources */,
+				E01D66EEEC3B60CECEEFD76C /* HomeViewModelInsightTests.swift in Sources */,
+				C68CDA73A2DC07355F1D7760 /* PressureAggregationTests.swift in Sources */,
+				0E489499C11D8C914F7A76BF /* PressureFormattingTests.swift in Sources */,
+				62AAFCF44528661D28C8067B /* PressurePropertyTests.swift in Sources */,
+				13B2C0868FB29BCC1A31BA84 /* PressureViewModelTests.swift in Sources */,
+				3D18FD3564BD26E4F485E5CF /* PressureZoneTests.swift in Sources */,
+				B4D48BFFCFC605AFA910C6A1 /* SnapshotTests.swift in Sources */,
+				79D22528422B5474751DBC33 /* TestSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A7F4F63DA80C781ADFC9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6131BFDBBB6122D5F1CE544B /* HealthMonitorApp.swift in Sources */,
+				56A82F5DA8A2B9BD2348C094 /* LaunchConfig.swift in Sources */,
+				3C89C110698B6A82C4B0AFD6 /* RootView.swift in Sources */,
+				4007AD5FFCD68402DD33B199 /* HealthRepository.swift in Sources */,
+				FF67C11361CF8BF190008F42 /* HealthStore.swift in Sources */,
+				B1210ADE5586C420B2F9FBD4 /* MockHealthData.swift in Sources */,
+				49F12E543BEB388E6F44BE81 /* AdviceCard.swift in Sources */,
+				823AEADC6DD49AE1DEA2E405 /* AdviceDeckView.swift in Sources */,
+				CCC8294658CAA277D3353CF0 /* AppFont.swift in Sources */,
+				B335F8AE6C0D63FAA9F756CA /* AuraMarker.swift in Sources */,
+				3334D1F11E38C36AE32AA640 /* AuraPalette.swift in Sources */,
+				51F57FBFA16EA70C52F9751B /* AuraScreen.swift in Sources */,
+				85CFDCF667B6C4B785B1230F /* AvatarButton.swift in Sources */,
+				77D351EAB9EC8702F3BB9154 /* BottomFade.swift in Sources */,
+				56C0339380FC74122DC514FC /* Colors.swift in Sources */,
+				EA516E5AC77D33639A93B507 /* ContentSwap.swift in Sources */,
+				5F86D1C33CE42F067DD535B3 /* CornerGlow.swift in Sources */,
+				38C718413C1D113B3134790C /* DomeGlow.swift in Sources */,
+				E7F9EA93EA58F04165132355 /* EmptyStateView.swift in Sources */,
+				F51028D74DEF36699DE7B4BA /* ErrorStateView.swift in Sources */,
+				477C07EEE75B963896500EC7 /* FloatingTabBar.swift in Sources */,
+				A2C679109B3D355DA0823A7E /* GlassCard.swift in Sources */,
+				A5592B33B6F1F247DBDDD70C /* GlowButton.swift in Sources */,
+				FD8A6EC73C3CEA9EF3D984AE /* Hairline.swift in Sources */,
+				4737BF176EE01A8EB8BB879A /* HeartGlow.swift in Sources */,
+				FD0B2906615E2A9DCBE8184B /* HeartShape.swift in Sources */,
+				F8B0C2B39E1F95166D5BEC78 /* HeroGlowImage.swift in Sources */,
+				09E06BC3E6D0DB199BF533CC /* IconButton.swift in Sources */,
+				A922DC3D8DC79E1C35F6F6CD /* IntroReveal.swift in Sources */,
+				CEDC5A2C564BDE5DF9485CE5 /* LargerText.swift in Sources */,
+				190E7452F16B260CC1863EF6 /* MetricCard.swift in Sources */,
+				97AE779612849EE1E97747B0 /* MetricGauge.swift in Sources */,
+				D7A63DB725D3BBA8D75860EC /* MetricStyle.swift in Sources */,
+				320069F2B389E655BA05E0D1 /* MetricValueBlock.swift in Sources */,
+				4ED817A1B3E0BE3294296DED /* Motion.swift in Sources */,
+				BB048739939CD52DB430FEE9 /* PrimaryButton.swift in Sources */,
+				78FB349D2AE004DFE3756E33 /* Radius.swift in Sources */,
+				CDFFEA492606520F0B447F0D /* SectionHeader.swift in Sources */,
+				C802B90862DD4E9F4D218A9A /* SegmentedPicker.swift in Sources */,
+				45A828BCBCE3552D46F58A87 /* Size.swift in Sources */,
+				8DE04175C71E94015F679A78 /* Skeleton.swift in Sources */,
+				DB5AF8BA84BBB559970B7179 /* Spacing.swift in Sources */,
+				3B862817325EFC87CF66446A /* StatCard.swift in Sources */,
+				9D106B82937BB931398E88B2 /* StateMessageView.swift in Sources */,
+				993342C89784A741F36CD5ED /* StatusBarFade.swift in Sources */,
+				7D8FFEFF28DFF90154147AD5 /* StatusPill.swift in Sources */,
+				059C7EE43B5746E1DE64D1CD /* Toast.swift in Sources */,
+				B86945266FDA89AB90F6904E /* Typography.swift in Sources */,
+				1F919E3249BEB8A775AE6FDC /* Advice.swift in Sources */,
+				3FB3DE7EF417FE77B44CFE78 /* AdviceDeck.swift in Sources */,
+				ED8615FA7813E11E19648F75 /* AppFormat.swift in Sources */,
+				CF7161B6F2512E835082BAA2 /* AppUnit.swift in Sources */,
+				DA9CB14F457D694D53F9DD1F /* GaugeScale.swift in Sources */,
+				1FCEDCAA316AAF513CF17D44 /* HealthState.swift in Sources */,
+				CADB4152AFD19C8D47D120C8 /* HeartbeatRhythm.swift in Sources */,
+				FDB8B704C9678041B8DF5F73 /* HomeText.swift in Sources */,
+				825B80CCD8DCA56AE4642EFD /* PressureAggregation.swift in Sources */,
+				D0A86DEE64B36770DDD7F373 /* PressureMeasurement.swift in Sources */,
+				196031BB2A400BA7CCB7BAB2 /* PressureZone+Presentation.swift in Sources */,
+				8277B29378ABF9CADCF9A3B3 /* PressureZone.swift in Sources */,
+				9DE6C582404DC1DACEBE99AE /* WeekOverview.swift in Sources */,
+				76D955E99AB759476BE3DA61 /* HomeHeadline.swift in Sources */,
+				23CAD2924FFCEF9C55D788C2 /* HomeModels.swift in Sources */,
+				09C96B4F4AAC2600D9950E87 /* HomeView.swift in Sources */,
+				E6A4E2904DA822B8B6791828 /* HomeViewModel+Tiles.swift in Sources */,
+				FA08DE6CA3AE974885DF3EC0 /* HomeViewModel.swift in Sources */,
+				FE46ADDA755290358BE07AE2 /* InsightSheet.swift in Sources */,
+				C97B45182E00F2FFBE664D2D /* PressureCards.swift in Sources */,
+				F47FB42B6CFDFD385DE07BD3 /* PressureChartView.swift in Sources */,
+				EE1296EF067EFCEFB88252F0 /* PressureView.swift in Sources */,
+				61F89209E814FCFE444A90C5 /* PressureViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		576FD9CBD88521B28E623995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECD3D69C4DD1A8638FEDF49 /* HealthMonitor */;
+			targetProxy = 13282C5BFF67A3EE852CE4FF /* PBXContainerItemProxy */;
+		};
+		C96816D0201813B38E28324E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECD3D69C4DD1A8638FEDF49 /* HealthMonitor */;
+			targetProxy = AFA2142D0FA8F826FE172441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074A98D9D9CD37443B281C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMonitor.app/HealthMonitor";
+			};
+			name = Release;
+		};
+		10B31A75C4CB9FE2966112DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Health Monitor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CA4F15A175777FB2150B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		19DC9BC0C1E3B26A7093221D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Health Monitor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2965E22873A52FB323D083F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthMonitor;
+			};
+			name = Release;
+		};
+		5F4534BD7D734D47396C591A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMonitor.app/HealthMonitor";
+			};
+			name = Debug;
+		};
+		F35EE067AB054CFD68FCBEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthmonitor.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthMonitor;
+			};
+			name = Debug;
+		};
+		F3DF75063428B201782532C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AADCC7D4B8FA18B80C21037 /* Build configuration list for PBXNativeTarget "HealthMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35EE067AB054CFD68FCBEDD /* Debug */,
+				2965E22873A52FB323D083F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FDBA3CAD095E9CD9A9B9DF /* Build configuration list for PBXNativeTarget "HealthMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DC9BC0C1E3B26A7093221D /* Debug */,
+				10B31A75C4CB9FE2966112DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF6430C66F40BF10AB415EB /* Build configuration list for PBXNativeTarget "HealthMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4534BD7D734D47396C591A /* Debug */,
+				074A98D9D9CD37443B281C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F905B102B4F13BD6617D8EB3 /* Build configuration list for PBXProject "HealthMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA4F15A175777FB2150B99 /* Debug */,
+				F3DF75063428B201782532C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3CF9A2ADAA23C15F8C0E2AB /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		400BC5F98F1E1CCA67F5EB93 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3CF9A2ADAA23C15F8C0E2AB /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 244210E48437B6556980A702 /* Project object */;
+}

@@ -15,7 +15,7 @@
 ## Стек
 - Swift 5.10+, SwiftUI, iOS 17+, Swift Charts.
 - Архитектура: MVVM, модели состояния через `@Observable`.
-- Проект генерируется XcodeGen из `project.yml`. Файл `.xcodeproj` в Git не хранится.
+- `HealthMonitor.xcodeproj` и общая схема `HealthMonitor` хранятся в Git. CI и локальная проверка используют этот проект.
 - Линтер: SwiftLint (`.swiftlint.yml`). Форматирование: swift-format.
 - Тесты: Swift Testing / XCTest. UI-тесты делают скриншоты.
 
@@ -57,7 +57,7 @@ builder исправляет → повторяем, пока отчёты не 
 
 ## Окружение
 Два режима, определи по `uname`/наличию `xcodebuild`:
-- **macOS (основной для дизайн-ревью).** Быстрый цикл локально: `scripts/local-verify.sh` (XcodeGen, SwiftLint --strict,
+- **macOS (основной для дизайн-ревью).** Быстрый цикл локально: `scripts/local-verify.sh` (SwiftLint --strict,
   сборка, установка в запущенный симулятор, скриншоты всех экранов в `build/local/<время>/`), `--tests` добавляет unit-тесты.
   design-reviewer сравнивает эти скриншоты с `docs/design/home-figma-63-25250.png`. Ошибки компилятора видны сразу —
   не пушь, пока локальная сборка красная. CI остаётся финальной проверкой перед «готово» (UI-тесты, аудит, видео).

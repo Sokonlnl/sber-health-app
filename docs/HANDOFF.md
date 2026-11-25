@@ -6,7 +6,7 @@
 
 ## Подготовка мака (один раз)
 ```bash
-brew install xcodegen swiftlint node gh
+brew install swiftlint node gh
 git clone https://github.com/Sokonlnl/sber-health-app.git && cd sber-health-app
 chmod +x scripts/local-verify.sh
 scripts/local-verify.sh

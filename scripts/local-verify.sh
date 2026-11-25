@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Локальная проверка на macOS (быстрый цикл вместо CI): генерация проекта, SwiftLint, сборка,
+# Локальная проверка на macOS (быстрый цикл вместо CI): SwiftLint, сборка,
 # установка в запущенный симулятор и скриншоты всех экранов и состояний в build/local/<время>/.
 # Использование:
 #   scripts/local-verify.sh                 # сборка + скриншоты
@@ -16,11 +16,7 @@ BUNDLE_ID=com.example.healthmonitor
 SIM_NAME="${SIM:-}"
 
 need() { command -v "$1" >/dev/null || { echo "Нет $1. Установи: brew install $2"; exit 1; }; }
-need xcodegen xcodegen
 need swiftlint swiftlint
-
-echo "== XcodeGen"
-xcodegen generate --quiet
 
 echo "== SwiftLint --strict"
 swiftlint --strict --quiet

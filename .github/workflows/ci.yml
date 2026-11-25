@@ -37,13 +37,10 @@ jobs:
           exit $FAIL
 
       - name: Install tools
-        run: brew install xcodegen swiftlint
+        run: brew install swiftlint
 
       - name: SwiftLint
         run: swiftlint --strict
-
-      - name: Generate Xcode project
-        run: xcodegen generate
 
       - name: Select simulator
         id: sim
